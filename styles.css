@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { /* used as parent for .to-do-box*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(180, 180, 180);
+}
+
+
+.to-do-box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 20px;
+    height: 100px;
+    width: 350px;
+    background-color: rgb(34, 159, 213);
+    color: white;
+}
+
+.to-do-box h1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.to-do-box-lower{
+    display: flex;
+    justify-content: center;
+}
+
+/* slight space between buttons and input box */ 
+.to-do-box-lower input{
+    margin-right: 5px;
+}
+.to-do-box-lower button{
+    margin-right: 5px;
+}
+
+.to-do-box-lower{
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.to-do-list {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.to-do-list ul{
+    list-style-type: circle;
+}
+
+.to-do-list ul li {
+    border-bottom: solid;
+    border-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.to-do-list ul li button {
+    margin-left: 5px;
+}
+
